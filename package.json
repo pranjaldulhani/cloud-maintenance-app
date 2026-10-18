@@ -1,0 +1,22 @@
+{
+  "name": "cloud-maintenance-app",
+  "version": "1.0.0",
+  "description": "Simple web app with security and compliance best practices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "compression": "^1.8.2",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "morgan": "^1.12.1"
+  }
+}
